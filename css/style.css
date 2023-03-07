@@ -95,9 +95,41 @@ body {
 }
 
 #main-footer {
-  background: #000;
+  background: #0E3C9F;
   color: #fff;
 }
 .custom-bg {
   background-color: #0E3C9F;
 }
+/* forum icons */
+.forum-icons {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  transform: translateY(-50%);
+}
+
+.forum_items {
+  width: 60px;
+  height: 40px;
+}
+
+@media (max-width:768px) {
+  .forum-icons {
+    display: none;
+  }
+}
+
+@media (min-width:786px) {
+  .footer_column {
+    display: none;
+  }
+}
+
+/* 
+.fd-column {
+  flex-direction: column;
+} */
